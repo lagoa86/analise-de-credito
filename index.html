@@ -3,33 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Análise de Crédito Imobiliário</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Analise de Crédito Imobiliário | Saimon Oliveira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #1E90FF, #00BFFF);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    header strong {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 1em;
+      font-weight: bold;
+      color: white;
+      background-color: #28a745;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+    .btn-instagram {
+      background-color: #E1306C;
+    }
+    .btn-instagram:hover {
+      background-color: #C72E5E;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1DA851;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #1E90FF;
+    }
+    section p {
+      font-size: 1.1em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .icons div {
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .image-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .image-section img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #1E90FF;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <section class="container">
-    <h1>Solicite sua Análise de Crédito</h1>
-    <form id="creditoForm">
-      <label>Nome Completo</label>
-      <input type="text" id="nome" required>
 
-      <label>WhatsApp</label>
-      <input type="text" id="whatsapp" required>
+<header>
+  <h1>Descubra o Imóvel Ideal para Você</h1>
+  <p>
+    <strong>Saimon Oliveira</strong>
+    Corretor de Imóveis | CRECI 41196
+  </p>
+  <p>Solicite sua análise de crédito imobiliário e encontre seu novo lar com facilidade e segurança.</p>
+  <a href="SEU_LINK_GOOGLE_FORMS" class="btn">Solicitar Análise</a>
+</header>
 
-      <label>Email</label>
-      <input type="email" id="email" required>
+<section>
+  <h2>Por que fazer sua análise de crédito?</h2>
+  <p>Ter a análise pronta facilita a aprovação do financiamento, te dá segurança para negociar e te mostra exatamente qual imóvel está dentro do seu orçamento.</p>
 
-      <label>Documentos (PDF/JPG/PNG)</label>
-      <input type="file" id="documentos" multiple required>
+  <div class="icons">
+    <div><i class="fas fa-home"></i><br>Minha Casa Minha Vida</div>
+    <div><i class="fas fa-coins"></i><br>Financiamento Seguro</div>
+    <div><i class="fas fa-handshake"></i><br>Negociação Fácil</div>
+  </div>
 
-      <button type="submit">Enviar</button>
-    </form>
-    <p id="mensagem"></p>
-  </section>
+  <div class="video-container">
+    <iframe src="SEU_VIDEO_YOUTUBE" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-storage.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js"></script>
-  <script src="app.js"></script>
+  <div class="image-section">
+    <img src="URL_IMAGEM_FAMILIA" alt="Família Feliz">
+    <img src="URL_IMAGEM_APARTAMENTO" alt="Apartamento dos Sonhos">
+  </div>
+</section>
+
+<section>
+  <h2>Fale Conosco</h2>
+  <a href="https://instagram.com/SEU_INSTAGRAM" class="btn btn-instagram"><i class="fab fa-instagram"></i> Instagram</a>
+  <a href="https://wa.me/SEU_WHATSAPP" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2025 <strong>Saimon Oliveira</strong> | Corretor de Imóveis | CRECI 41196</p>
+  <p><a href="SEU_LINK_GOOGLE_FORMS">Solicitar Análise de Crédito</a></p>
+</footer>
+
 </body>
 </html>
