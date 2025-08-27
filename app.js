@@ -1,11 +1,11 @@
 // Configuração do Firebase (cole aqui suas credenciais)
 const firebaseConfig = {
-  apiKey: "SUA-CHAVE",
-  authDomain: "seu-projeto.firebaseapp.com",
-  projectId: "seu-projeto",
-  storageBucket: "seu-projeto.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abc123"
+  apiKey: "AIzaSyDpv8J6BvoYmbttM8FhJYM2TaK7tab71lM",
+  authDomain: "analise-de-credito-imobiliario.firebaseapp.com",
+  projectId: ", analise-de-credito-imobiliario",
+  storageBucket: "analise-de-credito-imobiliario.firebasestorage.app",
+  messagingSenderId: "407743825411",
+  appId: "1:407743825411:web:55a261e341ec0d2822f036"
 };
 
 firebase.initializeApp(firebaseConfig);
